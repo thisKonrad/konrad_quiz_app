@@ -20,6 +20,9 @@
     margin-top: 12rem;
 }
 
+h3{
+    font-size: 1.4rem;
+}
 
 .icon {
     width: 4rem;
@@ -38,7 +41,7 @@ footer{
 
 .card {
     width: 30%;
-    height: 6rem;
+    height: 12rem;
     padding: 2.4rem;
     margin: 2rem;
     display: flex;
@@ -48,7 +51,9 @@ footer{
     gap: 4px;
     border: none;
     border-radius: 12px;
+    color: var(--textColor);
     background-color: var(--cardColor);
+    box-shadow: var(--boxShadow);
 }
 
 .answer{

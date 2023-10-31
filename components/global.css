@@ -9,8 +9,10 @@
     font-size: 100%;
     --mainThemeColor: cadetblue;
     --mainBackground:rgb(243, 255, 175);
-    --buttonColor: rgb(228, 217, 238);
+    --buttonColor: rgb(172, 84, 255);
     --cardColor: rgb(161, 209, 211);
+    --textColor: white;
+    --boxShadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.4);
 }
  
 body{
