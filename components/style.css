@@ -12,6 +12,7 @@
     --footerColor: rgb(152, 255, 187);
     --boxShadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.4);
     --containerColor: rgb(255, 249, 217);
+    --answerCardColor: rgb(253, 199, 199);
 }
  
 body {

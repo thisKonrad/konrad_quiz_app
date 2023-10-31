@@ -13,7 +13,12 @@
     border-radius: 12px;
     color: var(--textColor);
     background-color: var(--cardColor);
+  
     box-shadow: var(--boxShadow);
+}
+  /* class for an active answer card JS: */
+.card_active{
+  background-color: var(--answerCardColor);
 }
 
 
@@ -21,14 +26,16 @@ h3{
     font-size: 1.2rem;
 }
 .question{
-/*     visibility:visible; */
-    visibility: hidden;
+    visibility:visible;
+/*     visibility: hidden; */
 }
 .answer{
     visibility:visible;
    /*  visibility: hidden; */
-    text-align: center;
-    font-size: 2.4rem;
+}
+
+.answer_text{
+    align-self:center;
 }
 
 .question_bookmark{
