@@ -1,5 +1,21 @@
+h3{
+    font-size: 1.2rem;
+}
 
 .card{
+    width: 24rem;
+    height: 24rem;
+    padding: 1.4rem;
+    margin: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+} 
+
+.question, .answer{
+    position:absolute;
     width: 24rem;
     height: 24rem;
     padding: 1.4rem;
@@ -11,32 +27,24 @@
     gap: 6px;
     border: none;
     border-radius: 12px;
-    color: var(--textColor);
-    background-color: var(--cardColor);
     box-shadow: var(--boxShadow);
 }
-  /* class for an active answer card JS: */
-.card_active{
-  background-color: var(--answerCardColor);
-}
 
-
-h3{
-    font-size: 1.2rem;
-}
 .question{
-   /*  visibility:visible; */
-    visibility: hidden;
+    z-index: 2;
+    visibility:visible;
+  /*   visibility: hidden; */
+    background-color: var(--questionCardColor);
 }
 .answer{
+    z-index: 3;
     visibility:visible;
    /*  visibility: hidden; */
-   text-align: center;
+   background-color: var(--answerCardColor);
 }
 
 .answer_text{
     align-self:center;
-
 }
 
 .question_bookmark{
@@ -44,3 +52,4 @@ h3{
     margin-left: 85%;
     height: 6rem;
 }
+
