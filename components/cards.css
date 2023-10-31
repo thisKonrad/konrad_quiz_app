@@ -1,0 +1,32 @@
+
+.card {
+    width: 24rem;
+    height: 24rem;
+    padding: 1.4rem;
+    margin: 2.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    border-radius: 12px;
+    color: var(--textColor);
+    background-color: var(--cardColor);
+    box-shadow: var(--boxShadow);
+}
+
+
+h3{
+    font-size: 1.2rem;
+}
+
+.answer{
+    visibility: hidden;
+}
+
+.question_bookmark{
+    align-self: first baseline;
+    margin-left: 85%;
+    height: 6rem;
+}

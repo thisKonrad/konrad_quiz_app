@@ -1,0 +1,16 @@
+.icon_footer {
+    width: 4rem;
+    height: 4rem;
+}
+.icon_footer:hover{
+    transform:scale(1.1)
+}
+
+.language_icon{
+    z-index: 0;
+    /* top | right | bottom | left */
+    margin: 12px 4px -15px 4px;
+    align-self: last baseline;
+    height: 2.4rem;
+    opacity: 0.4;
+}

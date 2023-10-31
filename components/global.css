@@ -1,29 +1,11 @@
 /*einbinden aller stylesheets hier:
 * @import "./stylereltivePath"*/
+@import "./header.css";
 
+@import"./cards.css";
 
-*{margin: 0; padding: 0; box-sizing: border-box;}
- 
-:root{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 100%;
-    --mainThemeColor: cadetblue;
-    --mainBackground:rgb(243, 255, 175);
-    --buttonColor: rgb(172, 84, 255);
-    --cardColor: rgb(161, 209, 211);
-    --textColor: white;
-    --footerColor: rgb(152, 255, 187);
-    --boxShadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.4);
-    --containerColor: rgb(255, 249, 217);
-}
- 
+@import "./button.css";
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    margin: 0px auto;
-    background:var(--mainBackground);
-}
+@import "./icons.css";
+
+@import "./footer.css";
