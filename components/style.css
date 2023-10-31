@@ -46,6 +46,18 @@ body {
     gap: 1rem;
     margin-top: 280%;
 }
+.bookmark_page_wrap{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 60%;
+}
+
+
 /* these are dummies for the correct spacing of the card area*/
 .start_of_card_line, .end_of_card_line{
     width: 24rem;
