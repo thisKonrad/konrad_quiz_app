@@ -57,7 +57,7 @@ body {
     align-items: center;
     gap: 1rem;
  /*    margin-top: calc((var(--cardHeight) * 2rem) + var(--headerHeight)); */
-    margin-top: 280%; 
+    margin-top: 320%; 
 }
 .bookmark_page_wrap{
     display: flex;
