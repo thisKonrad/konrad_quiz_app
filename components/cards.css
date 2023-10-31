@@ -20,9 +20,15 @@
 h3{
     font-size: 1.2rem;
 }
-
-.answer{
+.question{
+/*     visibility:visible; */
     visibility: hidden;
+}
+.answer{
+    visibility:visible;
+   /*  visibility: hidden; */
+    text-align: center;
+    font-size: 2.4rem;
 }
 
 .question_bookmark{
