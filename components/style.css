@@ -18,13 +18,16 @@
     --backButtonColor: rgb(255, 155, 233);
     --cardColor: rgb(161, 209, 211);
     --textColor: white;
-    --textShadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
     --footerColor: rgb(152, 255, 187);
-    --boxShadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.4);
     --containerColor: rgb(255, 249, 217);
     --questionCardColor: rgb(161, 209, 211);
     --answerCardColor: rgb(122, 208, 219);
     --userBackground: rgb(62, 215, 253);
+
+    /* shadows: */
+    --boxShadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.6);
+    --textShadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    --headlineShadow:  1px 1px 8px rgba(0, 0, 0);
 }
  
 body {
@@ -53,7 +56,8 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 280%;
+ /*    margin-top: calc((var(--cardHeight) * 2rem) + var(--headerHeight)); */
+    margin-top: 280%; 
 }
 .bookmark_page_wrap{
     display: flex;

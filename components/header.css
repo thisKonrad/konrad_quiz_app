@@ -1,6 +1,7 @@
 .quiz_title, .bookmark_title, .user_title{
     font-size: 6rem;
     font-weight: bolder;
+    text-shadow: var(--headlineShadow);
 }
 
 header{
