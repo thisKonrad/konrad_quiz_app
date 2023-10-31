@@ -1,5 +1,5 @@
 
-.card {
+.card{
     width: 24rem;
     height: 24rem;
     padding: 1.4rem;
@@ -8,12 +8,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    gap: 6px;
     border: none;
     border-radius: 12px;
     color: var(--textColor);
     background-color: var(--cardColor);
-  
     box-shadow: var(--boxShadow);
 }
   /* class for an active answer card JS: */
@@ -26,16 +25,18 @@ h3{
     font-size: 1.2rem;
 }
 .question{
-    visibility:visible;
-/*     visibility: hidden; */
+   /*  visibility:visible; */
+    visibility: hidden;
 }
 .answer{
     visibility:visible;
    /*  visibility: hidden; */
+   text-align: center;
 }
 
 .answer_text{
     align-self:center;
+
 }
 
 .question_bookmark{
