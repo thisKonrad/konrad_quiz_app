@@ -3,6 +3,7 @@
 :root{
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
+    --mainThemeColor: cadetblue;
 }
  
 body{
