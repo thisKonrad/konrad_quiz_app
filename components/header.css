@@ -10,12 +10,12 @@ header{
     top: 0px;
     width: 100%;
     height: var(--headerHeight);
-    margin-bottom: 12rem;
     display: flex;
     justify-content: center;
     align-items:center;
+    flex-wrap: wrap;
     background-color: var(--mainThemeColor);
-    box-shadow:var(--boxShadow);
+    box-shadow:var(--headerBoxShadow);
 }
 .quiz_title, .bookmark_title, .user_title{
     color: white;

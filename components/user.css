@@ -61,6 +61,10 @@
     align-self:last baseline;
 }
 
+.fail_text, .solved_text{
+    margin-left: 0.8rem;
+}
+
 .about_user{
     grid-area: 1/ 3/ 1/ 5;
     text-align: justify;
