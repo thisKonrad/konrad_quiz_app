@@ -29,21 +29,25 @@
     font-size: 2rem;
 }
 
-.about_heading{
+.about_heading {
     font-size: 1.8rem;
 }
 
-.user_name_wrap{
+.user_name_wrap {
     grid-area: 3/ 1/ 4/ 2;
     display: flex;
     justify-content: center;
+}
+
+.star {
+    font-size: 2.4rem;
 }
 
 .rated_field {
     grid-area: 3/ 3/ 4/ 5;
 }
 
-.track_solved{
+.track_solved {
     grid-area: 4/ 3/ 5/ 5;
     align-self:last baseline;
 }
