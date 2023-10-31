@@ -16,30 +16,33 @@ h3{
 
 .question, .answer{
     position:absolute;
-    width: 24rem;
-    height: 24rem;
-    padding: 1.4rem;
-    margin: 2.6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 6px;
+    width: 24rem;
+    height: 24rem;
+    padding: 1.4rem;
+    margin: 2.6rem;
     border: none;
     border-radius: 12px;
+    color: var(--textColor);
     box-shadow: var(--boxShadow);
 }
 
+/* show hide cards with JS attribute: visibiltiy hidden or visible: */
 .question{
     z-index: 2;
     visibility:visible;
   /*   visibility: hidden; */
+  text-align:justify;
     background-color: var(--questionCardColor);
 }
 .answer{
     z-index: 3;
-    visibility:visible;
-   /*  visibility: hidden; */
+    /* visibility:visible; */
+    visibility: hidden;
    background-color: var(--answerCardColor);
 }
 
