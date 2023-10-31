@@ -1,12 +1,12 @@
 
-/* .container{
+
+.container{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 80%;
         height: 100vh;
-
-}*/
+}
 
 
 .page_wrap{
@@ -17,26 +17,32 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 12rem;
+    margin-top: 240%;
 }
 
 h3{
     font-size: 1.4rem;
 }
 
-.icon {
+.icon_footer {
     width: 4rem;
     height: 4rem;
 }
+.icon_footer:hover{
+    transform:scale(1.1)
+}
+
 
 footer{
-        width: 100%;
-        height: 8rem;
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        gap: 8%;
-        background-color: var(--mainThemeColor);
+    position: fixed;
+    align-self:last baseline;
+    width: 100%;
+    height: 6.4rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 8%;
+    background-color: var(--footerColor);
 }
 
 .card {
@@ -58,4 +64,9 @@ footer{
 
 .answer{
     visibility: hidden;
+}
+
+.question_bookmark{
+    margin-left: 85%;
+    height: 6rem;
 }
