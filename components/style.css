@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 *{margin: 0; padding: 0; box-sizing: border-box;}
  
 :root{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Bungee', sans-serif;
+/* font-family: 'Courier New', Courier, monospace; */
     font-size: 100%;
     --mainThemeColor: cadetblue;
     --mainBackground:rgb(243, 255, 175);
@@ -16,6 +18,7 @@
     --containerColor: rgb(255, 249, 217);
     --questionCardColor: rgb(161, 209, 211);
     --answerCardColor: rgb(122, 208, 219);
+    --userBackground: rgb(62, 215, 253);
 }
  
 body {
@@ -44,8 +47,20 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 390%;
+    margin-top: 300%;
 }
+.bookmark_page_wrap{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 60%;
+}
+
+
 /* these are dummies for the correct spacing of the card area*/
 .start_of_card_line, .end_of_card_line{
     width: 24rem;

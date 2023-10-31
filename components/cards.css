@@ -14,6 +14,7 @@ h3{
     gap: 6px;
 } 
 
+
 .question, .answer{
     position:absolute;
     display: flex;
@@ -37,15 +38,15 @@ h3{
 .question{
     z-index: 2;
     visibility:visible;
-   /*  visibility: hidden; */
+  /*   visibility: hidden; */
     background-color: var(--questionCardColor);
 }
 .answer{
     z-index: 3;
-  /*   visibility:visible; */
-   /*  visibility: hidden; */
-   font-size: 1.4rem;
-   background-color: var(--answerCardColor);
+ /*    visibility:visible;  */
+    visibility: hidden; 
+    font-size: 1.4rem;
+    background-color: var(--answerCardColor);
 }
 
 .answer_text{

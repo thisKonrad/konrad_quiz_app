@@ -1,0 +1,58 @@
+.user_profile_field{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 0.25fr);
+    height: 65%;
+    width: 65rem;
+    padding: 6rem;
+    border-radius: 4rem;
+    background-color: var(--userBackground);
+    box-shadow: var(--boxShadow);
+}
+
+.user_image{
+    grid-area: 1/ 1/ 2/ 2;
+    width: 18rem;
+    height: 18rem;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+}
+
+.track_failed, .track_solved, .user_name, .about_heading, .about_text{
+    font-size: 1.6rem;
+    color: var(--textColor);
+    text-shadow: var(--textShadow);
+}
+
+.user_name{
+    font-size: 2rem;
+}
+
+.about_heading{
+    font-size: 1.8rem;
+}
+
+.user_name_wrap{
+    grid-area: 3/ 1/ 4/ 2;
+    display: flex;
+    justify-content: center;
+}
+
+.track_solved{
+    grid-area: 2/ 3/ 2/ 5;
+    align-self:last baseline;
+}
+
+.track_failed{
+    grid-area: 3/ 3/ 3/ 5;
+    align-self:last baseline;
+}
+
+.about_user{
+    grid-area: 1/ 3/ 1/ 5;
+    text-align: justify;
+}
+.about_text{
+    margin-top: 1rem;
+}

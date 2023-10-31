@@ -14,3 +14,9 @@
     height: 2.4rem;
     opacity: 0.4;
 }
+
+.bookmarked{
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.2);
+}
