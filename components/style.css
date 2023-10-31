@@ -37,7 +37,16 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0px auto;
-    background:var(--mainBackground);
+    /* background:var(--mainBackground); */
+    
+    background: 
+        repeating-linear-gradient(180deg,
+        rgb(238, 255, 209) 16rem,
+        rgb(220, 220, 255) 18rem,
+        rgb(238, 255, 209) 20rem
+    );
+    
+
 }
 
 .container{
@@ -56,8 +65,8 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
- /*    margin-top: calc((var(--cardHeight) * 2rem) + var(--headerHeight)); */
-    margin-top: 320%; 
+ /* margin-top: calc((var(--cardHeight) * 2rem) + var(--headerHeight)); */
+    margin-top: 380%; 
 }
 .bookmark_page_wrap{
     display: flex;

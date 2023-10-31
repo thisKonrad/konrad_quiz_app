@@ -39,6 +39,10 @@
     justify-content: center;
 }
 
+/* inline flex for horizontal */
+.star_wrap {
+    margin-top: 6px;
+}
 .star {
     font-size: 2.4rem;
 }
