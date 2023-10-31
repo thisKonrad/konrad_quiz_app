@@ -8,6 +8,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     --mainThemeColor: cadetblue;
+    --mainBackground:rgb(243, 255, 175);
     --buttonColor: rgb(228, 217, 238);
     --cardColor: rgb(161, 209, 211);
 }
