@@ -36,14 +36,14 @@ h3{
 /* show hide cards with JS attribute: visibiltiy hidden or visible: */
 .question{
     z-index: 2;
-    visibility:visible;
-   /*  visibility: hidden; */
+   /*  visibility:visible; */
+    visibility: hidden;
     background-color: var(--questionCardColor);
 }
 .answer{
     z-index: 3;
-  /*   visibility:visible; */
-   /*  visibility: hidden; */
+    visibility:visible; 
+ /*    visibility: hidden; */
    font-size: 1.4rem;
    background-color: var(--answerCardColor);
 }

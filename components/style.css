@@ -44,7 +44,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 390%;
+    margin-top: 280%;
 }
 /* these are dummies for the correct spacing of the card area*/
 .start_of_card_line, .end_of_card_line{
