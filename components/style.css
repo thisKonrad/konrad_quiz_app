@@ -37,11 +37,17 @@ footer{
 }
 
 .card {
-    width: 22rem;
+    width: 30%;
     height: 6rem;
+    padding: 2.4rem;
+    margin: 2rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 4px;
+    border: none;
+    border-radius: 12px;
     background-color: var(--cardColor);
 }
 
