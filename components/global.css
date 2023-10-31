@@ -1,5 +1,5 @@
-/*einbinden aller stylesheets hier:
-* @import "./stylereltivePath"*/
+/* :::: -- I AM GLOBAL! -- :::: */
+
 @import "./header.css";
 
 @import"./cards.css";
