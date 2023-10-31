@@ -6,22 +6,27 @@
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <title>code quiz</title>
     <link rel="shortcut icon" type="image/x-icon" href="./assets/bookmark.svg">
-    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='components/global.css'>
+    <link rel='stylesheet' href='components/header.css'>
+    <link rel='stylesheet' href='components/button.css'>
+    <link rel='stylesheet' href='components/style.css'>
 <head>
+    
 <body>
 
-    <div class="page_wrap">
+    <div class="container">
 
         <header>
             <h1 class="quiz_title">CODE QUIZ</h1>
         </header>
 
-        <main>
+        <main class="page_wrap">
 
             <section class="card card_001">
                 <div class="question"> 
                     <h3>What does CSS stand for ?</h3>
                 </div>
+                <button>show answer</button>
                 <div class="answer">
                     <h3>Cascading Style Sheets</h3>
                 </div>
@@ -33,6 +38,7 @@
                     <h3>link an external CSS file</h3>
                     <h3>to an HTML document ?</h3>
                 </div>
+                <button>show answer</button>
                 <div class="answer">
                     <h3>The link tag !</h3>
                 </div>
@@ -43,6 +49,7 @@
                     <h3>What is the purpose of the HTML</h3>
                     <h3>&lt; div &gt; element ?</h3>
                 </div>
+                <button>show answer</button>
                 <div class="answer">
                     <h3>It is a container element used to</h3>
                     <h3>group and style content together.</h3>
@@ -55,6 +62,7 @@
                     <h3>change the text</h3>
                     <h3>color of an element ?</h3>
                 </div>
+                <button>show answer</button>
                 <div class="answer">
                     <h3>The &lt; color &gt; tag !</h3>
                 </div>
@@ -65,6 +73,7 @@
                     <h3>What is the default display property</h3>
                     <h3>for most HTML elements?</h3>
                 </div>
+                <button>show answer</button>
                 <div class="answer">
                     <h3>block</h3>
                 </div>
@@ -74,6 +83,7 @@
                 <div class="question"> 
                     <h3>How can you center an element horizontally in CSS?</h3>
                 </div>
+                <button>show answer</button>
                 <div class="answer">
                     <h3>By setting its margin property to auto.</h3>
                 </div>
@@ -84,6 +94,7 @@
                     <h3>What is the CSS pseudo-class used to</h3>
                     <h3>select the first child of an element?</h3>
                 </div>
+                <button>show answer</button>
                 <div class="answer">
                     <h3>:first-child</h3>
                 </div>
@@ -94,6 +105,7 @@
                     <h3>Which HTML tag is used to create</h3>
                     <h3>an ordered (numbered) list?</h3>
                 </div>
+                <button>show answer</button>
                 <div class="answer">
                     <h3>The &lt; ol &gt; tag</h3>
                 </div>
@@ -105,6 +117,7 @@
                     <h3>the spacing between lines </h3>
                     <h3>of text within an element ?</h3>
                 </div>
+                <button>show answer</button>
                 <div class="answer">
                     <h3>line-height</h3>
                 </div>
@@ -116,6 +129,7 @@
                     <h3>"responsive web design"</h3>
                     <h3>refer to ?</h3>
                 </div>
+                <button>show answer</button>
                 <div class="answer">
                     <h3>It refers to designing web pages</h3>
                     <h3>that adapt and display well on</h3>
@@ -125,12 +139,25 @@
             <br>
 
 
-        </main>
+     
+
+
         <footer>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+            <a name="home" href="./index.html">
+                <img class="icon icon_home" src="./assets/home.svg">
+            </a>
+            <br>
+            <a name="bookmark" href="./bookmark.html">
+                <img class="icon icon_bookmark" src="./assets/bookmark.svg">
+            </a>
+            <br>
+            <a name="user" href="./user_profile.html">
+                <img class="icon icon_user" src="./assets/user.svg">
+            </a>
         </footer>
+
+    </main>
+
     </div>
     
 </body>

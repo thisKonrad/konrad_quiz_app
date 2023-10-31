@@ -1,0 +1,15 @@
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 8rem;
+    margin-bottom: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: var(--mainThemeColor);
+    box-shadow:var(--boxShadow);
+}
+.quiz_title, .bookmark_title, .user_title{
+    color: white;
+}
