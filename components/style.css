@@ -16,6 +16,7 @@
     --containerColor: rgb(255, 249, 217);
     --questionCardColor: rgb(161, 209, 211);
     --answerCardColor: rgb(122, 208, 219);
+    --userBackground: rgb(62, 215, 253);
 }
  
 body {
