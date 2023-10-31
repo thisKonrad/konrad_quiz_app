@@ -1,4 +1,10 @@
+.quiz_title{
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
 header{
+    z-index: 999;
     position: fixed;
     top: 0px;
     width: 100%;
