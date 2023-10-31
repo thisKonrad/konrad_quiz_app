@@ -1,7 +1,8 @@
+/* :::: --USERS-- :::: */
 .user_profile_field{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 0.25fr);
+    grid-template-rows: repeat(5, 0.25fr);
     height: 65%;
     width: 65rem;
     padding: 6rem;
@@ -12,14 +13,14 @@
 
 .user_image{
     grid-area: 1/ 1/ 2/ 2;
-    width: 18rem;
-    height: 18rem;
-    border: 2px solid rgba(0, 0, 0, 0.4);
+    width: 240px;
+    height: 240px;
+    border: 12px solid rgba(255, 255, 255, 0.4);
     border-radius: 100%;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
 }
 
-.track_failed, .track_solved, .user_name, .about_heading, .about_text{
+.track_failed, .track_solved, .rated_field, .user_name, .about_heading, .about_text{
     font-size: 1.6rem;
     color: var(--textColor);
     text-shadow: var(--textShadow);
@@ -29,24 +30,40 @@
     font-size: 2rem;
 }
 
-.about_heading{
+.about_heading {
     font-size: 1.8rem;
 }
 
-.user_name_wrap{
+.user_name_wrap {
     grid-area: 3/ 1/ 4/ 2;
     display: flex;
     justify-content: center;
 }
 
-.track_solved{
-    grid-area: 2/ 3/ 2/ 5;
+/* inline flex for horizontal */
+.star_wrap {
+    margin-top: 6px;
+}
+.star {
+    font-size: 2.4rem;
+}
+
+.rated_field {
+    grid-area: 3/ 3/ 4/ 5;
+}
+
+.track_solved {
+    grid-area: 4/ 3/ 5/ 5;
     align-self:last baseline;
 }
 
 .track_failed{
-    grid-area: 3/ 3/ 3/ 5;
+    grid-area: 5/ 3/ 6/ 5;
     align-self:last baseline;
+}
+
+.fail_text, .solved_text{
+    margin-left: 0.8rem;
 }
 
 .about_user{

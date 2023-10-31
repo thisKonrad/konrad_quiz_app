@@ -1,7 +1,10 @@
+/* :::: --THE ICONS-- :::: */
 .icon_footer {
     width: 4rem;
     height: 4rem;
+    filter: drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.6));
 }
+
 .icon_footer:hover{
     transform:scale(1.1)
 }
@@ -19,4 +22,11 @@
     border: 2px solid red;
     border-radius: 50%;
     background-color: rgba(255, 0, 0, 0.2);
+}
+
+.question_bookmark{
+    align-self: first baseline;
+    margin-left: 85%;
+    height: 6rem;
+    filter: drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.6));
 }

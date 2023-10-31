@@ -1,5 +1,5 @@
-/*einbinden aller stylesheets hier:
-* @import "./stylereltivePath"*/
+/* :::: -- I AM GLOBAL! -- :::: */
+
 @import "./header.css";
 
 @import"./cards.css";
@@ -9,5 +9,7 @@
 @import "./icons.css";
 
 @import "./footer.css";
+
+@import "./bookmark.css";
 
 @import "./user.css";

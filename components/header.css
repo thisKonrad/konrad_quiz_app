@@ -1,6 +1,8 @@
+/* :::: THE HEADER :::: */
 .quiz_title, .bookmark_title, .user_title{
     font-size: 6rem;
     font-weight: bolder;
+    text-shadow: var(--headlineShadow);
 }
 
 header{
@@ -8,13 +10,13 @@ header{
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 8rem;
-    margin-bottom: 12rem;
+    height: var(--headerHeight);
     display: flex;
     justify-content: center;
     align-items:center;
+    flex-wrap: wrap;
     background-color: var(--mainThemeColor);
-    box-shadow:var(--boxShadow);
+    box-shadow:var(--headerBoxShadow);
 }
 .quiz_title, .bookmark_title, .user_title{
     color: white;

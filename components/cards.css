@@ -1,10 +1,11 @@
+/* :::: -- THE CARDS -- ::::*/
 h3{
     font-size: 1.2rem;
 }
 
 .card{
-    width: 24rem;
-    height: 24rem;
+    width: var(--cardHeight);
+    height: var(--cardHeight);
     padding: 1.4rem;
     margin: 12rem;
     display: flex;
@@ -14,7 +15,6 @@ h3{
     gap: 6px;
 } 
 
-
 .question, .answer{
     position:absolute;
     display: flex;
@@ -22,8 +22,8 @@ h3{
     justify-content: center;
     align-items: center;
     gap: 6px;
-    width: 24rem;
-    height: 24rem;
+    width: var(--cardHeight);
+    height: var(--cardHeight);
     padding: 1.4rem;
     margin: 2.6rem;
     border: none;
@@ -37,14 +37,14 @@ h3{
 /* show hide cards with JS attribute: visibiltiy hidden or visible: */
 .question{
     z-index: 2;
-    visibility:visible;
-  /*   visibility: hidden; */
+  /*   visibility:visible; */
+  visibility: hidden;
     background-color: var(--questionCardColor);
 }
 .answer{
     z-index: 3;
- /*    visibility:visible;  */
-    visibility: hidden; 
+    visibility:visible; 
+ /*    visibility: hidden;  */
     font-size: 1.4rem;
     background-color: var(--answerCardColor);
 }
@@ -53,9 +53,4 @@ h3{
     align-self:center;
 }
 
-.question_bookmark{
-    align-self: first baseline;
-    margin-left: 85%;
-    height: 6rem;
-}
 
