@@ -25,10 +25,14 @@ h3{
     font-size: 1.4rem;
 }
 
-.icon {
+.icon_footer {
     width: 4rem;
     height: 4rem;
 }
+.icon_footer:hover{
+    transform:scale(1.1)
+}
+
 
 footer{
         width: 100%;
@@ -63,5 +67,5 @@ footer{
 
 .question_bookmark{
     margin-left: 85%;
-    height: 65%;
+    height: 6rem;
 }
