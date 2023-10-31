@@ -18,6 +18,11 @@ header{
     height: 8rem;
     background-color: cadetblue;
 }
-.quiz_title{
+.quiz_title, .bookmark_title, .user_title{
     color: white;
+}
+
+.icon{
+    width: 4rem;
+    height: 4rem;
 }
