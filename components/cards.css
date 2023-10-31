@@ -27,22 +27,24 @@ h3{
     margin: 2.6rem;
     border: none;
     border-radius: 12px;
+    text-align:justify;
     color: var(--textColor);
+    text-shadow: var(--textShadow);
     box-shadow: var(--boxShadow);
 }
 
 /* show hide cards with JS attribute: visibiltiy hidden or visible: */
 .question{
     z-index: 2;
-    visibility:visible;
-  /*   visibility: hidden; */
-  text-align:justify;
+  /*   visibility:visible; */
+    visibility: hidden;
     background-color: var(--questionCardColor);
 }
 .answer{
     z-index: 3;
-    /* visibility:visible; */
-    visibility: hidden;
+    visibility:visible;
+   /*  visibility: hidden; */
+   font-size: 1.4rem;
    background-color: var(--answerCardColor);
 }
 
