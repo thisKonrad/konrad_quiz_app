@@ -1,9 +1,15 @@
+/*einbinden aller stylesheets hier:
+* @import "./stylereltivePath"*/
+
+
 *{margin: 0; padding: 0; box-sizing: border-box;}
  
 :root{
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     --mainThemeColor: cadetblue;
+    --buttonColor: rgb(228, 217, 238);
+    --cardColor: rgb(161, 209, 211);
 }
  
 body{
