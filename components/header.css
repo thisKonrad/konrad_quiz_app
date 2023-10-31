@@ -8,6 +8,7 @@ header{
     justify-content: center;
     align-items:center;
     background-color: var(--mainThemeColor);
+    box-shadow:var(--boxShadow);
 }
 .quiz_title, .bookmark_title, .user_title{
     color: white;
