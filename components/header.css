@@ -8,7 +8,7 @@ header{
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 8rem;
+    height: var(--headerHeight);
     margin-bottom: 12rem;
     display: flex;
     justify-content: center;

@@ -3,9 +3,15 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
  
 :root{
-    font-family: 'Bungee', sans-serif;
-/* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Bungee', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 100%;
+
+    /* heights: */
+    --cardHeight: 24rem;
+    --headerHeight: 8rem;
+
+    /* :::: colors: :::: */
     --mainThemeColor: cadetblue;
     --mainBackground:rgb(243, 255, 175);
     --buttonColor: rgb(195, 132, 255);
@@ -47,7 +53,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 300%;
+    margin-top: 280%;
 }
 .bookmark_page_wrap{
     display: flex;
