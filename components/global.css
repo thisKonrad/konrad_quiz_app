@@ -13,9 +13,14 @@
     --cardColor: rgb(161, 209, 211);
     --textColor: white;
     --boxShadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.4);
+    --containerColor: rgb(255, 249, 217);
 }
  
-body{
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
     margin: 0em auto;
