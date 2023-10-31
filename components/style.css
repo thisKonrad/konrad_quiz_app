@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 *{margin: 0; padding: 0; box-sizing: border-box;}
  
 :root{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Bungee', sans-serif;
+/* font-family: 'Courier New', Courier, monospace; */
     font-size: 100%;
     --mainThemeColor: cadetblue;
     --mainBackground:rgb(243, 255, 175);
@@ -45,7 +47,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 280%;
+    margin-top: 300%;
 }
 .bookmark_page_wrap{
     display: flex;
