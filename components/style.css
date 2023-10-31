@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 240%;
+    margin-top: 380%;
 }
 
 h3{
@@ -46,9 +46,9 @@ footer{
 }
 
 .card {
-    width: 30%;
-    height: 12rem;
-    padding: 2.4rem;
+    width: 24rem;
+    height: 24rem;
+    padding: 1.4rem;
     margin: 2rem;
     display: flex;
     flex-direction: column;
@@ -67,6 +67,16 @@ footer{
 }
 
 .question_bookmark{
+    align-self: first baseline;
     margin-left: 85%;
     height: 6rem;
+}
+
+.language_icon{
+    z-index: 0;
+    /* top | right | bottom | left */
+    margin: 12px 4px -15px 4px;
+    align-self: last baseline;
+    height: 2.4rem;
+    opacity: 0.4;
 }
