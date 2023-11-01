@@ -15,9 +15,15 @@ header{
     justify-content: center;
     align-items:center;
     flex-wrap: wrap;
-    background-color: var(--mainThemeColor);
+    /* default: background-color: var(--mainThemeColor); */
     box-shadow:var(--headerBoxShadow);
+    background-image: 
+    linear-gradient(
+    var(--mainThemeColor) 45%,
+     yellow 50%, 
+    var(--mainThemeColor) 55%);
 }
+
 .quiz_title, .bookmark_title, .user_title{
-    color: white;
+    color: var(--textColor);
 }
