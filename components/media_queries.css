@@ -111,10 +111,15 @@
     .container {
         width: 60%;
     }
+
     .question, .answer {
         gap: 4px;
         width: 16rem;
         height: 24rem;
+    }
+
+    .language_icon{
+        display: none;
     }
 }
 
