@@ -11,4 +11,5 @@ footer{
     align-items:center;
     gap: 8%;
     background-color: var(--footerColor);
+    box-shadow: -6px -6px 8px rgba(0, 0, 0, 0.4);
 }
