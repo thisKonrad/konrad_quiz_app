@@ -34,31 +34,39 @@ h3{
     box-shadow: var(--boxShadow);
 }
 
-/* show hide cards with JS attribute: visibiltiy hidden or visible: */
+
+/* show hide cards with JS BEM out commentet downwards: visibiltiy hidden or visible: */
+
 .question {
     z-index: 2;
+  
     visibility:visible; 
- /*  visibility: hidden; */
+    /* visibility: hidden; */
+  
     background-color: var(--questionCardColor);
 }
-/* BEM for JS */
-.question--visibility {
-    visibility: hidden;
-}
+
+
 .answer {
     z-index: 3;
-    /* visibility:visible;  */
+  
+  /* visibility:visible;  */
+
     visibility: hidden; 
     font-size: 1.4rem;
     background-color: var(--answerCardColor);
 }
+
+/* BEM for JS */
+/* .question--visibility {
+    visibility: hidden;
+}*/
+
+
 /* BEM for JS */
 /* .answer--visibility {
     visibility: hidden;
-}
+}*/
 
-.answer_text{
-    align-self:center;
-} */
 
 
