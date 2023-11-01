@@ -41,12 +41,20 @@ h3{
  /*  visibility: hidden; */
     background-color: var(--questionCardColor);
 }
+/* BEM for JS */
+.question--visibility {
+    visibility: hidden;
+}
 .answer {
     z-index: 3;
     /* visibility:visible;  */
     visibility: hidden; 
     font-size: 1.4rem;
     background-color: var(--answerCardColor);
+}
+/* BEM for JS */
+.answer--visibility {
+    visibility: hidden;
 }
 
 .answer_text{

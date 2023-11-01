@@ -19,9 +19,10 @@ header{
     box-shadow:var(--headerBoxShadow);
     background-image: 
     linear-gradient(
-    var(--mainThemeColor) 45%,
-     yellow 50%, 
-    var(--mainThemeColor) 55%);
+    var(--mainThemeColor) 46%,
+     rgba(255, 255, 0, 0.5) 50%, 
+    var(--mainThemeColor) 54%
+    );
 }
 
 .quiz_title, .bookmark_title, .user_title{
