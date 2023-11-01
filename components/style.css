@@ -45,7 +45,6 @@ body {
         rgb(238, 255, 209) 14.25rem,
         rgb(220, 220, 255) 15rem
     );
-
 }
 
 .container{
@@ -55,6 +54,7 @@ body {
     align-items: center;
     width: 80%;
     height: 100%;
+    transform: translateX( -50%, 50%);
 }
 
 .page_wrap{

@@ -23,6 +23,7 @@ header{
      rgba(255, 255, 0, 0.5) 50%, 
     var(--mainThemeColor) 54%
     );
+    transform: translateX(0);
 }
 
 .quiz_title, .bookmark_title, .user_title{

@@ -95,6 +95,7 @@
         height: 4rem;
         margin-top: 0%;
         gap: 4%;
+        bottom: -2px;
     }
 
     .icon_footer {
@@ -107,6 +108,19 @@
         height: 3rem;
     }
 
+    .container {
+        width: 60%;
+    }
+
+    .question, .answer {
+        gap: 4px;
+        width: 16rem;
+        height: 24rem;
+    }
+
+    .language_icon{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 440px) {
