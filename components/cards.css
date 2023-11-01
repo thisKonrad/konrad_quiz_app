@@ -28,7 +28,7 @@ h3{
     margin: 2.6rem;
     border: none;
     border-radius: 12px;
-    text-align:justify;
+    text-align:center;
     color: var(--textColor);
     text-shadow: var(--textShadow);
     box-shadow: var(--boxShadow);
