@@ -95,6 +95,7 @@
         height: 4rem;
         margin-top: 0%;
         gap: 4%;
+        bottom: -2px;
     }
 
     .icon_footer {
@@ -109,6 +110,11 @@
 
     .container {
         width: 60%;
+    }
+    .question, .answer {
+        gap: 4px;
+        width: 16rem;
+        height: 24rem;
     }
 }
 
