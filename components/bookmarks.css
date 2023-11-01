@@ -1,0 +1,12 @@
+/* :::: ---- BOOKMARKS ---- :::: */
+
+.bookmark_page_wrap{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 60%;
+}

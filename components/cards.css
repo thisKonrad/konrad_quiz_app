@@ -15,7 +15,7 @@ h3{
     gap: 6px;
 } 
 
-.question, .answer{
+.question, .answer {
     position:absolute;
     display: flex;
     flex-direction: column;
@@ -28,29 +28,45 @@ h3{
     margin: 2.6rem;
     border: none;
     border-radius: 12px;
-    text-align:justify;
+    text-align:center;
     color: var(--textColor);
     text-shadow: var(--textShadow);
     box-shadow: var(--boxShadow);
 }
 
-/* show hide cards with JS attribute: visibiltiy hidden or visible: */
-.question{
+
+/* show hide cards with JS BEM out commentet downwards: visibiltiy hidden or visible: */
+
+.question {
     z-index: 2;
-    visibility:visible;
+  
+    visibility:visible; 
     /* visibility: hidden; */
+  
     background-color: var(--questionCardColor);
 }
-.answer{
+
+
+.answer {
     z-index: 3;
-  /*   visibility:visible;  */
+  
+  /* visibility:visible;  */
+
     visibility: hidden; 
     font-size: 1.4rem;
     background-color: var(--answerCardColor);
 }
 
-.answer_text{
-    align-self:center;
-}
+/* BEM for JS */
+/* .question--visibility {
+    visibility: hidden;
+}*/
+
+
+/* BEM for JS */
+/* .answer--visibility {
+    visibility: hidden;
+}*/
+
 
 
