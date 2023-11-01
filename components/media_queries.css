@@ -107,5 +107,8 @@
         height: 3rem;
     }
 
+    .container {
+        width: 60%;
+    }
 }
 
