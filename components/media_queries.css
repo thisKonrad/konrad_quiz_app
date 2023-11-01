@@ -16,6 +16,50 @@
         height: calc(var(--headerHeight) * 1.25 ); 
     }
 
+    footer{
+        height: 5rem;
+        margin-top: 4%;
+        gap: 6%;
+    }
+
+    .icon_footer {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .icon_bookmark, .icon_user, .icon_home{
+        margin-bottom: 2.4rem;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .user_profile_field{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 0.25fr);
+        height: 65%;
+        width: 80%;
+        padding: 2rem;
+        border-radius: 3rem;
+    }
+    .user_image{
+        grid-area: 1/ 1/ 2/ 1;
+    }
+    .user_name_wrap {
+        grid-area: 2/ 1/ 3/ 1;
+    }
+    .about_user{
+        grid-area: 3/ 1/ 4/ 1;
+    }
+    .rated_field {
+        grid-area: 4/ 1/ 5/ 1;
+    }
+    .track_solved {
+        grid-area: 5/ 1/ 6/ 1;
+    }
+    .track_failed{
+        grid-area: 6/ 1/ 7/ 1;
+    }
+
 }
 
 
@@ -34,6 +78,22 @@
     header{
         width: 100%;
         height: calc(var(--headerHeight) * 1.15 ); 
+    }
+
+    footer{
+        height: 4rem;
+        margin-top: 0%;
+        gap: 4%;
+    }
+
+    .icon_footer {
+        width: 2rem;
+        height: 2rem;
+    }
+    .icon_bookmark, .icon_user, .icon_home{
+        margin-bottom: 2rem;
+        width: 3rem;
+        height: 3rem;
     }
 
 }
