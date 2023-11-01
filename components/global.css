@@ -2,14 +2,14 @@
 
 @import "./header.css";
 
+@import "./ICONS_Main.css";
+
 @import"./cards.css";
 
 @import "./button.css";
 
-@import "./icons.css";
-
 @import "./footer.css";
 
-@import "./bookmark.css";
+@import "./bookmarks.css";
 
 @import "./user.css";
