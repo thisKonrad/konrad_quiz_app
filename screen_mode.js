@@ -6,6 +6,7 @@ const toggle = document.querySelector('#dark_toggle');
 
 toggle.addEventListener('click', switchScreenMode);
 
+
 function switchScreenMode(){
 
     console.log('html: ', htmlPage);
