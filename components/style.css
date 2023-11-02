@@ -14,16 +14,16 @@
     --headerHeight: 8rem;
 
     /* :::: colors :::: */
-    --mainThemeColor: rgb(95, 110, 160);
+    --mainThemeColor: rgb(104, 126, 255);
     --mainBackground:rgb(243, 255, 175);
-    --buttonColor: rgb(195, 132, 255);
-    --backButtonColor: rgb(255, 155, 233);
-    --cardColor: rgb(161, 209, 211);
+    --buttonColor:rgb(255, 106, 194);
+    --backButtonColor: rgb(185, 49, 252);
+   /*  --cardColor: ; */
     --textColor: white;
-    --footerColor: rgb(0, 140, 221);
+    --footerColor:  rgb(104, 126, 255);
     --containerColor: rgb(255, 249, 217);
-    --questionCardColor: rgb(161, 209, 211);
-    --answerCardColor: rgb(122, 208, 219);
+    --questionCardColor: rgb(182, 255, 250);
+    --answerCardColor:  rgb(152, 228, 255);
     --userBackground: rgb(62, 215, 253);
     --toggleBackground: rgb(108, 108, 235);
 
@@ -44,7 +44,7 @@ body {
     background: 
         repeating-linear-gradient(180deg,
         rgb(238, 255, 209) 14.25rem,
-        rgb(220, 220, 255) 15rem
+        rgb(152, 228, 255) 15rem
     );
 }
 
