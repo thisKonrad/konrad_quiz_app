@@ -2,5 +2,5 @@
     margin-bottom: 3rem;
     width: 6rem;
     height: 6rem;
-    filter: drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.6));
+    filter: drop-shadow(3px 5px 4px var(--iconShadow));
 }

@@ -13,27 +13,65 @@
     --cardHeight: 24rem;
     --headerHeight: 8rem;
 
+}
+
+/* dark and light modes: */
+[data-theme="light"]{
+
     /* :::: colors :::: */
-    --mainThemeColor: rgb(95, 110, 160);
+    --mainThemeColor: rgb(104, 126, 255);
     --mainBackground:rgb(243, 255, 175);
-    --buttonColor: rgb(195, 132, 255);
-    --backButtonColor: rgb(255, 155, 233);
-    --cardColor: rgb(161, 209, 211);
+    --buttonColor:rgb(255, 106, 194);
+    --backButtonColor: rgb(185, 49, 252);
+   /*  --cardColor: ; */
     --textColor: white;
-    --footerColor: rgb(0, 140, 221);
+    --footerColor:  rgb(104, 126, 255);
     --containerColor: rgb(255, 249, 217);
-    --questionCardColor: rgb(161, 209, 211);
-    --answerCardColor: rgb(122, 208, 219);
+    --questionCardColor: rgb(182, 255, 250);
+    --answerCardColor:  rgb(152, 228, 255);
     --userBackground: rgb(62, 215, 253);
     --toggleBackground: rgb(108, 108, 235);
+
+    --backgroundGradientColorOne: rgb(238, 255, 209);
+    --backgroundGradientColorTwo: rgb(152, 228, 255);
 
     /* :::: shadows :::: */
     --boxShadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.6);
     --textShadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
     --headlineShadow:  1px 1px 8px rgba(0, 0, 0);
     --headerBoxShadow:  0rem 0rem 1.2rem rgba(0, 0, 0, 0.8);
+    --iconShadow: rgba(0, 0, 0, 0.6);
+
+}
+
+[data-theme="dark"] {
+
+    /* :::: colors :::: */
+    --mainThemeColor: rgb(10, 38, 71);
+    --mainBackground:rgb(217, 255, 0);
+    --buttonColor:rgb(255, 0, 149);
+    --backButtonColor: rgb(69, 4, 102);
+   /*  --cardColor: ; */
+    --textColor: white;
+    --footerColor:  rgb(15, 57, 105);
+    --containerColor: rgb(255, 249, 217);
+    --questionCardColor:rgb(1, 11, 20);
+    --answerCardColor:  rgb(8, 30, 58);
+    --userBackground: rgb(62, 215, 253);
+    --toggleBackground: rgb(32, 82, 149);
+
+    --backgroundGradientColorOne: rgb(0, 0, 0);
+    --backgroundGradientColorTwo:rgb(0, 0, 136);
+
+    /* :::: shadows :::: */
+    --boxShadow: 0rem 0rem 0.8rem rgba(255, 255, 255, 0.6);
+    --textShadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+    --headlineShadow:  1px 1px 8px rgb(255, 255, 255);
+    --headerBoxShadow:  0rem 0rem 1.2rem rgba(255, 255, 255, 0.8);
+    --iconShadow: rgba(255, 255, 255, 0.8);
 }
  
+
 body {
     display: flex;
     justify-content: center;
@@ -43,8 +81,8 @@ body {
     margin: 0px auto;
     background: 
         repeating-linear-gradient(180deg,
-        rgb(238, 255, 209) 14.25rem,
-        rgb(220, 220, 255) 15rem
+        var(--backgroundGradientColorOne) 14.25rem,
+        var(--backgroundGradientColorTwo)15rem
     );
 }
 
