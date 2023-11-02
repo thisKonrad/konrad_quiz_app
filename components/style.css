@@ -32,14 +32,46 @@
     --userBackground: rgb(62, 215, 253);
     --toggleBackground: rgb(108, 108, 235);
 
+    --backgroundGradientColorOne: rgb(238, 255, 209);
+    --backgroundGradientColorTwo: rgb(152, 228, 255);
+
     /* :::: shadows :::: */
     --boxShadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.6);
     --textShadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
     --headlineShadow:  1px 1px 8px rgba(0, 0, 0);
     --headerBoxShadow:  0rem 0rem 1.2rem rgba(0, 0, 0, 0.8);
+    --iconShadow: rgba(0, 0, 0, 0.6);
 
 }
+
+[data-theme="dark"] {
+
+    /* :::: colors :::: */
+    --mainThemeColor: rgb(10, 38, 71);
+    --mainBackground:rgb(243, 255, 175);
+    --buttonColor:rgb(255, 0, 149);
+    --backButtonColor: rgb(69, 4, 102);
+   /*  --cardColor: ; */
+    --textColor: white;
+    --footerColor:  rgb(15, 57, 105);
+    --containerColor: rgb(255, 249, 217);
+    --questionCardColor:rgb(1, 11, 20);
+    --answerCardColor:  rgb(8, 30, 58);
+    --userBackground: rgb(62, 215, 253);
+    --toggleBackground: rgb(32, 82, 149);
+
+    --backgroundGradientColorOne: rgb(162, 255, 0);
+    --backgroundGradientColorTwo: rgb(0, 49, 66);
+
+    /* :::: shadows :::: */
+    --boxShadow: 0rem 0rem 0.8rem rgba(255, 255, 255, 0.6);
+    --textShadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+    --headlineShadow:  1px 1px 8px rgb(255, 255, 255);
+    --headerBoxShadow:  0rem 0rem 1.2rem rgba(255, 255, 255, 0.8);
+    --iconShadow: rgba(255, 255, 255, 0.8);
+}
  
+
 body {
     display: flex;
     justify-content: center;
@@ -49,8 +81,8 @@ body {
     margin: 0px auto;
     background: 
         repeating-linear-gradient(180deg,
-        rgb(238, 255, 209) 14.25rem,
-        rgb(152, 228, 255) 15rem
+        var(--backgroundGradientColorOne) 14.25rem,
+        var(--backgroundGradientColorTwo)(152, 228, 255) 15rem
     );
 }
 
