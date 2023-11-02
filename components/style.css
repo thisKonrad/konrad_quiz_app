@@ -25,6 +25,7 @@
     --questionCardColor: rgb(161, 209, 211);
     --answerCardColor: rgb(122, 208, 219);
     --userBackground: rgb(62, 215, 253);
+    --toggleBackground: rgb(108, 108, 235);
 
     /* :::: shadows :::: */
     --boxShadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.6);

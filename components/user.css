@@ -61,3 +61,41 @@
 .about_text{
     margin-top: 1rem;
 }
+
+/* :: dark mode toggle :: */
+.switch_wrap{
+    grid-area: 2/ 3/ 2/ 5;          
+	position: relative;
+    display: inline-block; 
+}
+.switch {    
+	width: 6rem;
+	height: 3rem;
+}
+
+.switch input {
+	display: none;
+}
+
+.toggle_knob {		   
+	position: absolute;
+	background-color: var(--toggleBackground);
+	border-radius: 1rem;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: background-color 0.4s;
+}
+
+.switch span::before {   
+    content: "";
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 4px;
+	bottom: 4px;
+	height: 26px;
+	width: 26px;
+}
