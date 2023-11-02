@@ -14,13 +14,13 @@
     --headerHeight: 8rem;
 
     /* :::: colors :::: */
-    --mainThemeColor: cadetblue;
+    --mainThemeColor: rgb(95, 110, 160);
     --mainBackground:rgb(243, 255, 175);
     --buttonColor: rgb(195, 132, 255);
     --backButtonColor: rgb(255, 155, 233);
     --cardColor: rgb(161, 209, 211);
     --textColor: white;
-    --footerColor: rgb(152, 255, 187);
+    --footerColor: rgb(0, 140, 221);
     --containerColor: rgb(255, 249, 217);
     --questionCardColor: rgb(161, 209, 211);
     --answerCardColor: rgb(122, 208, 219);
