@@ -67,6 +67,51 @@
     grid-area: 2/ 3/ 2/ 5;          
 	position: relative;
     display: inline-block; 
+    font-size: 1.6rem;
+
+    color: var(--textColor);
+    text-shadow: var(--textShadow);
+
+    background: slategrey;
+    border-radius: 0.45rem;
+    padding: 0.6rem;
 }
-
-
+#dark_toggle {
+    position: absolute;
+    appearance: none;
+    cursor: pointer;
+    right: 1rem;
+    width: 4rem;
+    height: 3rem;
+    border-radius: 1rem;
+    transform: rotate(90deg);
+}
+#dark_toggle:before {
+    content: '';
+    position: absolute;
+    margin: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.4);
+}
+#dark_toggle::after{
+    content: '';
+    margin: 0.5rem;
+    position: absolute;
+    left: 4rem;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    border: 
+    0.4rem solid white;
+    background-color: rgba(1, 39, 121, 0.9);
+    box-shadow: inset 0rem 0rem 0.2rem black;
+}
+#dark_toggle:checked:before{
+    left: 2rem;
+}
+#dark_toggle:checked:after{
+    background-color: white;
+}
