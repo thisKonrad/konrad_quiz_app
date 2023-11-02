@@ -7,17 +7,19 @@ toggle.addEventListener('click', switchScreenMode);
 
 function switchScreenMode(e){
 
+    console.log('html: ', htmlPage)
+
     console.log('switched');
 
-    if(htmlPage.dataSet === 'light') {
+    if( htmlPage.dataset.theme === 'light') {
 
-        htmlPage.dataSet = 'dark';
+        return htmlPage.dataset.theme = 'dark';
     
     } 
-    if (htmlPage.dataSet === 'dark') {
+    if ( htmlPage.dataset.theme === 'dark') {
 
-        htmlPage.dataSet = 'light';
+        return htmlPage.dataset.theme = 'light';
     
     } 
 
-}
+};
