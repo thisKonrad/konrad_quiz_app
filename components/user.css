@@ -40,25 +40,13 @@
     justify-content: center;
 }
 
-/* inline flex for horizontal */
-.star_wrap {
-    margin-top: 6px;
-}
-.star {
-    font-size: 2.4rem;
-}
-
-.rated_field {
-    grid-area: 3/ 3/ 4/ 5;
-}
-
 .track_solved {
-    grid-area: 4/ 3/ 5/ 5;
+    grid-area: 3/ 3/ 4/ 5;
     align-self:last baseline;
 }
 
 .track_failed{
-    grid-area: 5/ 3/ 6/ 5;
+    grid-area: 4/ 3/ 5/ 5;
     align-self:last baseline;
 }
 
