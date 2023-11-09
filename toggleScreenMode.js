@@ -32,5 +32,6 @@ document.addEventListener("DOMContentLoaded", function(){
     if (isDarkMode) {
         toggleSwitch.checked = true;
         htmlPage.dataset.theme="dark";
+        userImage.src='./assets/robot_profile_dark_mode.jpg';
     }
 });
