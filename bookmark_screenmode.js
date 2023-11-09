@@ -1,3 +1,2 @@
 screenMode = false;
-
 switchScreenMode();
