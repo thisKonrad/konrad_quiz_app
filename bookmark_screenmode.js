@@ -1,0 +1,3 @@
+screenMode = false;
+
+switchScreenMode();
