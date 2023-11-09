@@ -11,8 +11,10 @@ toggleSwitch.addEventListener("change", function() {
 
     if (toggleSwitch.checked) {
         htmlPage.dataset.theme="dark";
+        userImage.src='./assets/robot_profile_dark_mode.jpg';
 
     } else {
         htmlPage.dataset.theme="light";
+        userImage.src='./assets/robot_profile.jpg';
     }
 });
