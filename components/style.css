@@ -1,11 +1,13 @@
 /* :::: # MAIN STYLE :::: */
-
-@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-
 *{margin: 0; padding: 0; box-sizing: border-box;}
  
+@font-face{
+    font-family:'256';
+    src: url('./256BYTES.woff');
+}
+
 :root{
-    font-family: 'Bungee', Courier, monospace;
+    font-family:'Courier New', Courier, monospace;
     /* by default: font-family: 'Courier New', Courier, monospace; */
     font-size: 100%;
 
@@ -37,7 +39,7 @@
     /* :::: shadows :::: */
     --boxShadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.6);
     --textShadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-    --headlineShadow:  1px 1px 8px rgba(0, 0, 0);
+    --headlineShadow:  0px 2px 8px rgba(0, 0, 0);
     --headerBoxShadow:  0rem 0rem 1.2rem rgba(0, 0, 0, 0.8);
     --iconShadow: rgba(0, 0, 0, 0.6);
 
@@ -45,28 +47,32 @@
 
 [data-theme="dark"] { 
     /* :::: colors :::: */
-    --mainThemeColor: rgb(10, 38, 71);
+    --mainThemeColor: rgb(0, 0, 0);
     --mainBackground:rgb(217, 255, 0);
     --buttonColor:rgb(255, 0, 149);
     --backButtonColor: rgb(69, 4, 102);
    /*  --cardColor: ; */
     --textColor: white;
-    --footerColor:  rgb(15, 57, 105);
+    --footerColor:  rgb(0, 0, 0);
     --containerColor: rgb(255, 249, 217);
     --questionCardColor:rgb(1, 11, 20);
-    --answerCardColor:  rgb(8, 30, 58);
-    --userBackground: rgb(62, 215, 253);
-    --toggleBackground: rgb(32, 82, 149);
+    --answerCardColor:  rgb(12, 48, 94);
+    --userBackground: rgb(51, 0, 71);
+    --toggleBackground: rgb(21, 47, 82);
 
     --backgroundGradientColorOne: rgb(0, 0, 0);
-    --backgroundGradientColorTwo:rgb(0, 0, 136);
+    --backgroundGradientColorTwo:rgb(0, 0, 58);
+
+    --profileGradient001: black;
+    --profileGradient002: rgb(0, 0, 97);
+    --profileGradient003: black;
 
     /* :::: shadows :::: */
     --boxShadow: 0rem 0rem 0.8rem rgba(255, 255, 255, 0.6);
     --textShadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
     --headlineShadow:  1px 1px 8px rgb(255, 255, 255);
     --headerBoxShadow:  0rem 0rem 1.2rem rgba(255, 255, 255, 0.8);
-    --iconShadow: rgba(255, 255, 255, 0.8);
+    --iconShadow: rgba(255, 255, 255, 0.9);
 }
  
 

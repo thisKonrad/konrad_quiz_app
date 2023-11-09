@@ -10,9 +10,9 @@
 /*     background-color: var(--userBackground); */
     box-shadow: var(--boxShadow);
     background-image: repeating-linear-gradient(
-        rgba(46, 55, 65, 0.6) 5px,
-        rgb(121, 186, 255)10px,
-        cadetblue 15px   
+        var(--profileGradient001)5px,
+        var(--profileGradient002)10px,
+        var(--profileGradient003)15px   
     );
 }
 

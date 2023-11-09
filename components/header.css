@@ -1,7 +1,9 @@
 /* :::: THE HEADER :::: */
 .quiz_title, .bookmark_title, .user_title{
-    font-size: 6rem;
-    font-weight: bolder;
+    font-family: '256';
+    letter-spacing: 10px;
+    font-size: 4rem;
+    color: var(--textColor);
     text-shadow: var(--headlineShadow);
 }
 
@@ -24,8 +26,4 @@ header{
     var(--mainThemeColor) 54%
     );
     transform: translateX(0);
-}
-
-.quiz_title, .bookmark_title, .user_title{
-    color: var(--textColor);
 }
