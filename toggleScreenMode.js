@@ -1,4 +1,4 @@
-/* dark light mode js */
+/* ::: SCREEN-MODE :::: dark light mode js */
 
 const userImage = document.querySelector('.user_image');
 const htmlPage = document.querySelector('html');
@@ -8,12 +8,15 @@ const toggleSwitch = document.querySelector('#dark_toggle');
 JSON.stringify(htmlPage.dataset.theme="dark")); */
 
 
-
+/* variable for checking if darkMode is choosen */
 const isDarkMode = htmlPage.dataset.theme="dark";
+const isLightMode = htmlPage.dataset.theme="light";
+
 
 toggleSwitch.addEventListener("change", function() {
 
     if (toggleSwitch.checked) {
+
         htmlPage.dataset.theme="dark";
         userImage.src='./assets/robot_profile_dark_mode.jpg';
 
@@ -23,22 +26,21 @@ toggleSwitch.addEventListener("change", function() {
         htmlPage.dataset.theme="light";
         userImage.src='./assets/robot_profile.jpg';
 
-        //localStorage.setItem('lightMode', lightMode);
+        localStorage.setItem('lightMode', isLightMode);
     }
 });
 
 
+/* on page load check for dark mode */
 document.addEventListener("DOMContentLoaded", function () {
     
     localStorage.getItem('darkMode', isDarkMode);
 
-    // Apply dark mode if it's enabled in local storage
+    /* if dark Mode is choosen(true) add the dataset: */
     if ( isDarkMode === 'true') {
         htmlPage.dataset.theme="dark";
     }
-    else {
-        htmlPage.dataset.theme="light";
-    }
+
 });
 
 
