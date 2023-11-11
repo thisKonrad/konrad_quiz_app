@@ -25,7 +25,7 @@
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
 }
 
-.track_failed, .track_solved, .rated_field, .user_name, .about_heading, .about_text{
+.track_questions, .track_bookmarks, .user_name, .about_heading, .about_text{
     font-size: 1.6rem;
     color: var(--textColor);
     text-shadow: var(--textShadow);
@@ -45,17 +45,17 @@
     justify-content: center;
 }
 
-.track_solved {
+.track_questions {
     grid-area: 3/ 3/ 4/ 5;
     align-self:last baseline;
 }
 
-.track_failed{
+.track_bookmarks {
     grid-area: 4/ 3/ 5/ 5;
     align-self:last baseline;
 }
 
-.fail_text, .solved_text{
+.questions_count, .bookmarks_count{
     margin-left: 0.8rem;
 }
 
@@ -69,7 +69,7 @@
 
 /* :::: -- dark mode toggle -- :::: */
 .switch_wrap{
-    grid-area: 2/ 3/ 2/ 5;          
+    grid-area: 2/ 2/ 2/ 4;          
 	position: relative;
     display: inline-block; 
     font-size: 1.6rem;
