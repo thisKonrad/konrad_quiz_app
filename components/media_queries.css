@@ -3,7 +3,7 @@
 @media only screen and (max-width: 620px) {
 
     .page_wrap{
-        margin-top: 4400px; 
+        margin-top: 3200px; 
     }
 
     .quiz_title, .bookmark_title, .user_title{
@@ -89,7 +89,7 @@
 @media only screen and (max-width: 445px) {
 
     .page_wrap{
-        margin-top: 4600px; 
+        margin-top: 3200px; 
     }
 
     .quiz_title, .bookmark_title, .user_title{

@@ -22,13 +22,13 @@
     /* :::: colors :::: */
     --mainThemeColor: rgb(104, 126, 255);
     --mainBackground:rgb(243, 255, 175);
-    --buttonColor:rgb(255, 106, 194);
+    --buttonColor:rgb(81, 184, 231);
     --backButtonColor: rgb(185, 49, 252);
    /*  --cardColor: ; */
     --textColor: white;
     --footerColor:  rgb(104, 126, 255);
     --containerColor: rgb(255, 249, 217);
-    --questionCardColor: rgb(182, 255, 250);
+    --questionCardColor: rgb(0, 224, 209);
     --answerCardColor:  rgb(152, 228, 255);
     --userBackground: rgb(62, 215, 253);
     --toggleBackground: rgb(108, 108, 235);
@@ -109,7 +109,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 4200px; 
+    margin-top: 3100px; 
 }
 
 /* these are dummies for the correct spacing of the card area*/
