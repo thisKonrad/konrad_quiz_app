@@ -1,7 +1,8 @@
 /* :::: THE HEADER :::: */
 .quiz_title, .bookmark_title, .user_title{
-    font-family: '256';
+    font-family: 'TRICK';
     letter-spacing: 10px;
+    line-height: 6rem;
     font-size: 4rem;
     color: var(--textColor);
     text-shadow: var(--headlineShadow);

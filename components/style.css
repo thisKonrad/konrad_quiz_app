@@ -2,8 +2,8 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
  
 @font-face{
-    font-family:'256';
-    src: url('./256BYTES.woff');
+    font-family:'TRICK';
+    src: url('./TRICB___.woff');
 }
 
 :root{
@@ -22,13 +22,13 @@
     /* :::: colors :::: */
     --mainThemeColor: rgb(104, 126, 255);
     --mainBackground:rgb(243, 255, 175);
-    --buttonColor:rgb(255, 106, 194);
+    --buttonColor:rgb(81, 184, 231);
     --backButtonColor: rgb(185, 49, 252);
    /*  --cardColor: ; */
     --textColor: white;
     --footerColor:  rgb(104, 126, 255);
     --containerColor: rgb(255, 249, 217);
-    --questionCardColor: rgb(182, 255, 250);
+    --questionCardColor: rgb(0, 224, 209);
     --answerCardColor:  rgb(152, 228, 255);
     --userBackground: rgb(62, 215, 253);
     --toggleBackground: rgb(108, 108, 235);
@@ -38,7 +38,7 @@
 
     /* :::: shadows :::: */
     --boxShadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.6);
-    --textShadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    --textShadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
     --headlineShadow:  0px 2px 8px rgba(0, 0, 0);
     --headerBoxShadow:  0rem 0rem 1.2rem rgba(0, 0, 0, 0.8);
     --iconShadow: rgba(0, 0, 0, 0.6);
@@ -69,7 +69,7 @@
 
     /* :::: shadows :::: */
     --boxShadow: 0rem 0rem 0.8rem rgba(255, 255, 255, 0.6);
-    --textShadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+    --textShadow: 1px 1px 1px rgb(251, 255, 13);
     --headlineShadow:  1px 1px 8px rgb(255, 255, 255);
     --headerBoxShadow:  0rem 0rem 1.2rem rgba(255, 255, 255, 0.8);
     --iconShadow: rgba(255, 255, 255, 0.9);
@@ -109,7 +109,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 4200px; 
+    margin-top: 3100px; 
 }
 
 /* these are dummies for the correct spacing of the card area*/
