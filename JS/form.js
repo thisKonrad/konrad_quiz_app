@@ -18,9 +18,13 @@ submitBtn.addEventListener('click',(e)=>{
 
     console.log("data: ",data);
 
-    const formQuestion = data.text-question;
-    const formAnswer = data.text-answer;
-    const formTag = data[tag-name];
+    const formQuestion = data['text-question'];
+    const formAnswer = data['text-answer'];
+    const formTag = data['tag-name'];
+
+    console.log("data Ques:", formQuestion);
+    console.log("dataAnswer: ", formAnswer);
+    console.log("dataTag: ", formTag); 
 });
 
 /* 
@@ -80,7 +84,7 @@ function createNewCard(){
     const answerCardTitle = document.createElement('h3');
     answerCardTitle.classList.add('answer_text');
     answerCardTitle.innerText = `${formAnswer}`;
-    
+
     answerCardDiv.append(answerCardBtn)
     answerCardDiv.append(answerCardTitle)
 
