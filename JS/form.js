@@ -3,7 +3,7 @@
 /* const formData = new FormData(e.target);
 const data = Object.fromEntries(formData); */
 
-const mainPage = document.querySelector('page_wrap');
+const cardContainer = document.querySelector('.new_cards_wrap');
 const form = document.querySelector('[data-js="question-form"]');
 const submitBtn = document.querySelector('[data-js="submit-button"]');
 
@@ -22,9 +22,17 @@ submitBtn.addEventListener('click',(e)=>{
     const formAnswer = data['text-answer'];
     const formTag = data['tag-name'];
 
+    const questionLength = formQuestion.length;
+    const answerLength = formQuestion.length;
+
+    console.log("length of answer:", answerLength)
+    console.log("length of question:", questionLength)
     console.log("data Ques:", formQuestion);
     console.log("dataAnswer: ", formAnswer);
     console.log("dataTag: ", formTag); 
+
+    createNewCard(formQuestion, formAnswer, formTag);
+
 });
 
 /* 
@@ -46,7 +54,7 @@ submitBtn.addEventListener('click',(e)=>{
 </div>
 </section> */ 
 
-function createNewCard(){
+function createNewCard(question, answer, tag){
 
     const cardSection = document.createElement('section');
     cardSection.classList.add('card');
@@ -60,10 +68,10 @@ function createNewCard(){
     questCardIMG.classList.add('question_bookmark');
 
     const questCardTitle = document.createElement('h3');
-    questCardTitle.innerText = `${formQuestion}`;
+    questCardTitle.innerText = `${question}`;
 
     const questionCardTag = document.createElement('p');
-    questionCardTag.innerText = `${formTag}`;
+    questionCardTag.innerText = `${tag}`;
 
     const questCardBtn = document.createElement('button');
     questCardBtn.classList.add('show_card_btn');
@@ -83,12 +91,14 @@ function createNewCard(){
 
     const answerCardTitle = document.createElement('h3');
     answerCardTitle.classList.add('answer_text');
-    answerCardTitle.innerText = `${formAnswer}`;
+    answerCardTitle.innerText = `${answer}`;
 
     answerCardDiv.append(answerCardBtn)
     answerCardDiv.append(answerCardTitle)
 
     cardSection.append(questCardDiv);
     cardSection.append(answerCardDiv);
+
+    cardContainer.appendChild(cardSection);
 
 }
