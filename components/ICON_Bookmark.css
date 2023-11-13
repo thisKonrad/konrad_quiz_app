@@ -1,4 +1,5 @@
 .icon_bookmark{
+    cursor: pointer;
     margin-bottom: 3rem;
     width: 6rem;
     height: 6rem;
@@ -14,8 +15,13 @@
 }
 
 .question_bookmark{
+    cursor: pointer;
     align-self: first baseline;
     margin-left: 85%;
     height: 6rem;
     filter: drop-shadow(2px 3px 2px var(--iconShadow));
+}
+.question_bookmark:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
