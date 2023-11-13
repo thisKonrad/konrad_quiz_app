@@ -36,3 +36,7 @@ submitBtn.addEventListener('click',(e)=>{
     <h3 class="answer_text">Cascading Style Sheets</h3>
 </div>
 </section> */ 
+
+function createNewQuestion(){
+
+}
