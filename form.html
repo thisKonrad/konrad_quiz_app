@@ -25,7 +25,35 @@
 
     <div name="start_space_holder" class="start_of_card_line"></div>
 
+        <section>
+            
+                <legend>Your Question:</legend>
+                <form action ='#' method ='#' name ='new-question-form'>
 
+                <div class="question-wrap">
+                    <label for='your-question'>Your Question:</label>
+                    <textearea id="your-question" name="text-question"
+                    min="4" max="150"></textearea>
+                    <p><span data-js="question-chars-count">00</span> characters left!</p>
+                </div>
+         
+                <div class="answer_wrap">
+                    <label for='your-answer'>Your Answer:</label>
+                    <textearea id="your-answer" name="text-answer"
+                    min="4" max="150"></textearea> 
+                    <p><span data-js="answer-chars-count">00</span> characters left!</p>
+                </div>
+           
+                <div class="tag_wrap">
+                    <label for="tag">Your Tag:</label>
+                    <input type="text" id="tag" name="tag-name">
+                </div>
+      
+                <label for='add-button' name ='add-question-button'>add</label>
+                <button type='submit' id='add-button'>
+                </form>
+            
+        </section>
 
     <div name="end_space_holder" class="end_of_card_line"></div>
     
