@@ -1,5 +1,5 @@
 /* :::: -- THE BUTTONS -- ::::*/
-button { 
+button, .submit_button { 
     cursor: pointer;
     width: 14rem;
     height: 2.4rem;
@@ -13,7 +13,7 @@ button {
     box-shadow: var(--boxShadow);
 }
 
-.show_card_btn{
+.show_card_btn, #add-button{
     background-color: var(--buttonColor);
 }
 .show_card_btn:hover{
@@ -21,6 +21,10 @@ button {
     transition: 0.8s;
 }
 .show_card_btn:active{
+    transform: scale(0.9);
+}
+
+#add-button:active{
     transform: scale(0.9);
 }
 
