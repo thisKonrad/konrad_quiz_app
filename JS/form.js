@@ -37,14 +37,30 @@ submitBtn.addEventListener('click',(e)=>{
 </div>
 </section> */ 
 
-function createNewQuestion(){
+function createNewCard(){
 
     const cardSection = document.createElement('section');
     cardSection.classList.add('card');
 
-    const cardDiv = document.createElement('div');
-    cardDiv.classList.add('question');
+    /* :::: new question card :::: */
+    const questCardDiv = document.createElement('div');
+    questCardDiv.classList.add('question');
 
-    cardSection.append(cardDiv)
+    const questCardIMG = document.createElement('img');
+    questCardIMG.src = './assets/bookmark.svg';
+    questCardIMG.classList.add('question_bookmark');
+
+    const questCardTitle = document.createElement('h3');
+    questCardTitle.innerText = "";
+
+    const questCardBtn = document.createElement('button');
+    questCardBtn.classList.add('show_card_btn');
+    questCardBtn.innerText = 'Show Answer';
+
+    questCardDiv.append(questCardIMG);
+    questCardDiv.append(questCardTitle);
+    questCardDiv.append(questCardBtn);
+
+    cardSection.append(questCardDiv);
 
 }
