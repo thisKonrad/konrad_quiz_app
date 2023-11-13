@@ -41,19 +41,28 @@ const answerArea = document.querySelector('#your-answer');
 const questCharCount = document.querySelector('[data-js="question-chars-count"]');
 const answerCharCount = document.querySelector('[data-js="answer-chars-count"]');
 
-const maxCharCount = 150;
+/* :::: char counters :::: */
+const maxQuestionCharCount = 80;
+const maxAnswerCharCount = 80;
 
 questionArea.addEventListener('keyup',()=>{
 
-    console.log("up")
+    const quesCharValue = questionArea.value.length;
+    const quesCharsLeft = maxQuestionCharCount - quesCharValue;
 
-    const charValue = questionArea.value.length;
+    questCharCount.innerText = `${quesCharsLeft}`;
 
-    const charsLeft = maxCharCount - charValue;
+});
 
-    questCharCount.innerText = `${charsLeft}`;
 
-})
+answerArea.addEventListener('keyup',()=>{
+
+    const ansCharValue = answerArea.value.length;
+    const ansCharsLeft = maxAnswerCharCount - ansCharValue;
+
+    answerCharCount.innerText = `${ansCharsLeft}`;
+
+});
 
 
 /* 
