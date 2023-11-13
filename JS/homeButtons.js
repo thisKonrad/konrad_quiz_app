@@ -21,13 +21,17 @@ function toggleBookmarked(){
 
 function showAnswer(){
     console.log('ANS')
-    questionCard.style.visibility = 'hidden';
-    answerCard.style.visibility ='visible';
+    questionCard.classList.add('question--hide');
+    answerCard.classList.add('answer--show');
+ /*    questionCard.style.visibility = 'hidden';
+    answerCard.style.visibility ='visible'; */
 }
 
 
 function showQuestion(){
     console.log('QUES')
-    answerCard.style.visibility ='hidden';
-    questionCard.style.visibility = 'visible';
+    questionCard.classList.remove('question--hide');
+    answerCard.classList.remove('answer--show');
+ /*    answerCard.style.visibility ='hidden';
+    questionCard.style.visibility = 'visible'; */
 }

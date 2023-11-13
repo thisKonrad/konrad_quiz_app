@@ -55,15 +55,14 @@ h3{
 }
 
 /* BEM for JS */
-/* .question--visibility {
+.question--hide {
     visibility: hidden;
-} */
-
+}
 
 /* BEM for JS */
-/* .answer--visibility {
-    visibility: hidden;
-} */
+.answer--show {
+    visibility: visible;
+}
 
 
 
