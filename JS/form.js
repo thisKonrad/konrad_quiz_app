@@ -17,7 +17,12 @@ submitBtn.addEventListener('click',(e)=>{
     const data = Object.fromEntries(formData); 
 
     console.log("data: ",data);
-})
+
+    const formQuestion = data.text-question;
+    const formAnswer = data.text-answer;
+    const formTag = data[tag-name];
+});
+
 /* 
 <section class="card card_001" data-js="card">
 
@@ -51,7 +56,10 @@ function createNewCard(){
     questCardIMG.classList.add('question_bookmark');
 
     const questCardTitle = document.createElement('h3');
-    questCardTitle.innerText = "";
+    questCardTitle.innerText = `${formQuestion}`;
+
+    const questionCardTag = document.createElement('p');
+    questionCardTag.innerText = `${formTag}`;
 
     const questCardBtn = document.createElement('button');
     questCardBtn.classList.add('show_card_btn');
@@ -67,12 +75,12 @@ function createNewCard(){
 
     const answerCardBtn = document.createElement('button');
     answerCardBtn.classList.add('turn_card_btn');
-    answerCardBtn.innerText = `${formQuestion}`;
+    answerCardBtn.innerText = 'back';
 
     const answerCardTitle = document.createElement('h3');
     answerCardTitle.classList.add('answer_text');
     answerCardTitle.innerText = `${formAnswer}`;
-
+    
     answerCardDiv.append(answerCardBtn)
     answerCardDiv.append(answerCardTitle)
 
