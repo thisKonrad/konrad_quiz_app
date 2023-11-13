@@ -1,4 +1,10 @@
 /* :::: --THE ICONS-- :::: */
+@import "./ICON_Home.css";
+@import "./ICON_Bookmark.css";
+@import "./ICON_User.css";
+
+
+
 .icon_footer {
     width: 4rem;
     height: 4rem;

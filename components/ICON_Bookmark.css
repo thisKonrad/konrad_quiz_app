@@ -1,10 +1,10 @@
-.icon_bookmark{
+/* .icon_bookmark{
     cursor: pointer;
     margin-bottom: 3rem;
     width: 6rem;
     height: 6rem;
     filter: drop-shadow(3px 5px 4px var(--iconShadow));
-}
+} */
 
 .bookmarked{
     cursor: pointer;
@@ -18,8 +18,10 @@
     cursor: pointer;
     align-self: first baseline;
     margin-left: 85%;
+    width: 6rem;
     height: 6rem;
     filter: drop-shadow(2px 3px 2px var(--iconShadow));
+    margin-bottom: 3rem;
 }
 .question_bookmark:hover{
     cursor: pointer;
