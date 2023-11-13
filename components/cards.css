@@ -39,17 +39,14 @@ h3{
 
 .question {
     z-index: 2;
-
-    visibility:visible;  
+    visibility: visible;  
 /*     visibility: hidden; */
-  
     background-color: var(--questionCardColor);
 }
 
 
 .answer {
     z-index: 3;
-  
 /*   visibility:visible; 
  */
     visibility: hidden; 
@@ -58,9 +55,9 @@ h3{
 }
 
 /* BEM for JS */
-.question--visibility {
+/* .question--visibility {
     visibility: hidden;
-}
+} */
 
 
 /* BEM for JS */

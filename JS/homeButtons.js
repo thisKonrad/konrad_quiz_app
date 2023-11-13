@@ -20,15 +20,14 @@ function toggleBookmarked(){
 }
 
 function showAnswer(){
-    
     console.log('ANS')
-    questionCard.style.visibiltity ='hidden';
-    answerCard.style.visibiltity ='visible';
+    questionCard.style.visibility = 'hidden';
+    answerCard.style.visibility ='visible';
 }
 
 
 function showQuestion(){
     console.log('QUES')
-    answerCard.style.visibiltity ='hidden';
-    questionCard.style.visibiltity ='visible';
+    answerCard.style.visibility ='hidden';
+    questionCard.style.visibility = 'visible';
 }
