@@ -35,6 +35,27 @@ submitBtn.addEventListener('click',(e)=>{
 
 });
 
+
+const questionArea = document.querySelector('#your-question');
+const answerArea = document.querySelector('#your-answer');
+const questCharCount = document.querySelector('[data-js="question-chars-count"]');
+const answerCharCount = document.querySelector('[data-js="answer-chars-count"]');
+
+const maxCharCount = 150;
+
+questionArea.addEventListener('keyup',()=>{
+
+    console.log("up")
+
+    const charValue = questionArea.value.length;
+
+    const charsLeft = maxCharCount - charValue;
+
+    questCharCount.innerText = `${charsLeft}`;
+
+})
+
+
 /* 
 <section class="card card_001" data-js="card">
 
