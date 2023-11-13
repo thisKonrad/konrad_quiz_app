@@ -8,6 +8,9 @@ submitBtn.addEventListener('click',(e)=>{
 
     e.preventDefault();
     console.log('clicked')
+
+    console.log("formbtn: ",submitBtn)
+
     console.log("Event: ",e.target)
 
     const formData = new FormData(form);
@@ -112,7 +115,7 @@ function createNewCard(question, answer, tag){
     cardSection.append(questCardDiv);
     cardSection.append(answerCardDiv);
 
-    cardContainer.appendChild(cardSection);
+    cardContainer.insertAdjacentElement('afterbegin',cardSection);
 
     /* :: controls :: */
     questCardIMG.addEventListener('click', toggleBookmarked);
