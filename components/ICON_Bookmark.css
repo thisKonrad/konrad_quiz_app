@@ -1,6 +1,27 @@
 .icon_bookmark{
+    cursor: pointer;
     margin-bottom: 3rem;
     width: 6rem;
     height: 6rem;
     filter: drop-shadow(3px 5px 4px var(--iconShadow));
+}
+
+.bookmarked{
+    cursor: pointer;
+    border: 2px solid rgba(255, 0, 0, 0.6);
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.2);
+    box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.8);
+}
+
+.question_bookmark{
+    cursor: pointer;
+    align-self: first baseline;
+    margin-left: 85%;
+    height: 6rem;
+    filter: drop-shadow(2px 3px 2px var(--iconShadow));
+}
+.question_bookmark:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }

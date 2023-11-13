@@ -29,15 +29,17 @@
 
         <div name="start_space_holder" class="start_of_card_line"></div>
 
-            <section class="card card_001">
-                <div class="question"> 
-                    <img class="question_bookmark" alt="bookmark_icon" src="./assets/bookmark.svg">
+            <section class="card card_001" data-js="card">
+
+                <div class="question" data-js="questionCard"> 
+                    <img data-js="bookmark" class="question_bookmark" alt="bookmark_icon" src="./assets/bookmark.svg">
                     <h3>What does CSS stand for ?</h3>
                     <img name="css_html_icon" src="./assets/filetype-css.svg" 
                         alt="icon_css_file" class="language_icon">
                     <button class="show_card_btn">show answer</button>
                 </div>
-                <div class="answer">
+
+                <div class="answer" data-js="answerCard">
                     <button class="turn_card_btn">back</button>
                     <br>
                     <h3 class="answer_text">Cascading Style Sheets</h3>
@@ -46,7 +48,7 @@
             <br>
             <section class="card card_002">
                 <div class="question"> 
-                    <img class="question_bookmark" alt="bookmark_icon" src="./assets/bookmark.svg">
+                    <img data-js="bookmark" class="question_bookmark" alt="bookmark_icon" src="./assets/bookmark.svg">
                     <h3>Which HTML tag is used to</h3>
                     <h3>link an external CSS file</h3>
                     <h3>to an HTML document ?</h3>
@@ -63,7 +65,7 @@
             <br>
             <section class="card card_003">
                 <div class="question">
-                    <img class="question_bookmark" alt="bookmark_icon" src="./assets/bookmark.svg"> 
+                    <img data-js="bookmark" class="question_bookmark" alt="bookmark_icon" src="./assets/bookmark.svg"> 
                     <h3>What is the purpose of the HTML</h3>
                     <h3>&lt; div &gt; element ?</h3>
                     <img name="css_html_icon" src="./assets/filetype-html.svg" 
@@ -172,6 +174,10 @@
             <img class="icon_footer" src="./assets/bookmark.svg">
         </a>
         <br>
+        <a name="form" href="./form.html">
+            <img class="icon_footer" src="assets/addPNG.png">
+        </a>
+        <br>
         <a name="user" href="./user_profile.html">
             <img class="icon_footer" src="assets/robot_friendly.svg">
         </a>
@@ -180,6 +186,7 @@
     </div>
     
 
+<script src="JS/homeButtons.js"></script>
 <script src="JS/screenMode_universal.js"></script>
 
 </body>

@@ -4,13 +4,13 @@
 
 @import "./ICONS_Main.css";
 
+@import "./bookmarks.css";
+
 @import"./cards.css";
 
 @import "./button.css";
 
 @import "./footer.css";
-
-@import "./bookmarks.css";
 
 @import "./user.css";
 

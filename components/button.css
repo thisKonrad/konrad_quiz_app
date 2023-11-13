@@ -12,18 +12,18 @@ button {
     color: var(--textColor);
     box-shadow: var(--boxShadow);
 }
-button:hover{
+
+.show_card_btn{
+    background-color: var(--buttonColor);
+}
+.show_card_btn:hover{
     transform: scale(1.1);
     transition: 0.8s;
 }
-button:active{
+.show_card_btn:active{
     transform: scale(0.9);
-    transition: 0.8s;
 }
 
 .turn_card_btn{
     background-color: var(--backButtonColor);
-}
-.show_card_btn{
-    background-color: var(--buttonColor);
 }
