@@ -30,6 +30,7 @@
     grid-template-rows: 0.5fr 3fr 0.5fr;
 }
 #your-answer, #your-question{
+    resize:none;
     padding: 0.2rem;
     height: 64%;
     width: 100%;
@@ -93,4 +94,14 @@
     gap: 1rem;
     margin-top: 120px;
     margin-bottom: 6rem;
+}
+
+/* :::: for JS :::: */
+.tag_style{
+    z-index: 0;
+    /* top | right | bottom | left */
+    margin: 14px 4px -15px 4px;
+    align-self: center;
+    height: 2.4rem;
+    opacity: 0.4;
 }
