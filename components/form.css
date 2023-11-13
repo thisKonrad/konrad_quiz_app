@@ -1,15 +1,17 @@
+
 .form_wrap{
-    position: relative;
+    position: absolute;
+    transform: translateX( -50%, 50%);
+    align-self: center;
     display: grid;
     grid-template-columns: 0.5fr 3fr 0.5fr;
     grid-template-rows: 1.5fr 1.5fr 0.25fr 0.25fr;
     gap: 1.4rem;
-    height: 26rem;
-    width: 42rem;
-    padding: 6rem;
+    height: 70%;
+    width: 80%;
     border-radius: 2rem;
-    margin-top: 2%;
-    padding: 1.4rem;
+    padding: 3rem;
+   
     background-image: repeating-linear-gradient(
         var(--profileGradient001)5px,
         var(--profileGradient002)10px,
@@ -44,4 +46,25 @@
 #add-button{
     width: 60%;
     height: 55%;
+}
+
+.question_title, .answer_title {
+    margin: 0.4rem;
+    font-size: 1.4rem;
+    color: var(--textColor);
+    text-shadow: var(--textShadow);
+}
+
+.chars_counter{
+    margin: 0.4rem;
+    font-size: 1rem;
+    color: var(--textColor);
+    text-shadow: var(--textShadow);
+}
+
+.your_tag_title{
+    margin: 0.25rem;
+    font-size: 1.4rem;
+    color: var(--textColor);
+    text-shadow: var(--textShadow);
 }

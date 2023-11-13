@@ -16,14 +16,12 @@
 </head>
 <body>
 
+
 <!-- HOME -- konrad_von_wittich_code quiz game -->
-
-<div class="container">
-
     <header>
         <h1 class="quiz_title">ADD YOUR QUESTION</h1>
     </header>
-            
+
         <form class="form_wrap" action ='#' method ='#' name ='new-question-form'>
 
         <div class="question_wrap">
@@ -31,24 +29,24 @@
             <textarea id="your-question" name="text-question"
             cols="12" rows="4"
             min="4" max="150"></textarea>
-            <p><span data-js="question-chars-count">00</span> characters left!</p>
+            <p class="chars_counter"><span data-js="question-chars-count">00</span> characters left!</p>
         </div>
         
         <div class="answer_wrap">
-            <label for='your-answer'>Your Answer:</label>
+            <label for='your-answer' class="answer_title">Your Answer:</label>
             <textarea id="your-answer" name="text-answer"
             cols="12" rows="4"
             min="4" max="150"></textarea> 
-            <p><span data-js="answer-chars-count">00</span> characters left!</p>
+            <p class="chars_counter"><span data-js="answer-chars-count">00</span> characters left!</p>
         </div>
    
         <div class="tag_wrap">
-            <label for="tag">Your Tag:</label>
+            <label for="tag" class="your_tag_title">Your Tag:</label>
             <input type="text" id="tag" name="tag-name">
         </div>
 
         <div class="add_button_wrap">
-            <button type='submit' id='add-button' 
+            <input class="submit_button" value="ADD" type='submit' id='add-button' 
             name ='add-question-button'>
         </div>
     </form>
@@ -80,8 +78,6 @@
         <img class="icon_footer" src="assets/robot_friendly.svg">
         </a>
     </footer>
-
-</div>
 
 <script src="JS/form.js"></script>
 <script src="JS/screenMode_universal.js"></script>
