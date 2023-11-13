@@ -7,7 +7,7 @@ h3{
     width: var(--cardHeight);
     height: var(--cardHeight);
     padding: 1.4rem;
-    margin: 12rem;
+    margin: 2.6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

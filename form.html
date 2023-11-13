@@ -22,6 +22,7 @@
         <h1 class="quiz_title">ADD YOUR QUESTION</h1>
     </header>
 
+    <main>
         <form class="form_wrap" 
         action ='#' method ='#' 
         name ='new-question-form'
@@ -31,7 +32,7 @@
             <label for='your-question' class="question_title">Your Question:</label>
             <textarea id="your-question" name="text-question"
             cols="10" rows="4"
-            min="4" max="150"></textarea>
+            maxlength="80"></textarea>
             <p class="chars_counter"><span data-js="question-chars-count">00</span> characters left!</p>
         </div>
         
@@ -39,13 +40,13 @@
             <label for='your-answer' class="answer_title">Your Answer:</label>
             <textarea id="your-answer" name="text-answer"
             cols="10" rows="4"
-            min="4" max="150"></textarea> 
+            maxlength="80"></textarea> 
             <p class="chars_counter"><span data-js="answer-chars-count">00</span> characters left!</p>
         </div>
    
         <div class="tag_wrap">
             <label for="tag" class="your_tag_title">Your Tag:</label>
-            <input type="text" id="tag" name="tag-name">
+            <input type="text" id="tag" name="tag-name" maxlength="6">
         </div>
 
         <div class="add_button_wrap">
@@ -54,12 +55,12 @@
         </div>
     </form>
  
+    <br>
 
-    <main class="new_cards_wrap">
-    
+    <section class="new_cards_wrap"></section>
+
     </main>
-
-
+       
     <footer>
         <a name="home" href="./index.html">
         <img class="icon_home" src="./assets/home_desktop.png">
