@@ -1,10 +1,10 @@
 /* :: home buttons :: */
 
 const bookmarkIcon = document.querySelector('[data-js="bookmark"]');
-const showAnswerBtn = document.querySelectorAll('.show_card_btn');
-const showQuestionBtn = document.querySelectorAll('.turn_card_btn');
+const showAnswerBtn = document.querySelector('.show_card_btn');
+const showQuestionBtn = document.querySelector('.turn_card_btn');
 
-const card = document.querySelectorAll('[data-js="card"]');
+const card = document.querySelector('[data-js="card"]');
 
 bookmarkIcon.addEventListener('click', toggleBookmarked);
 showAnswerBtn.addEventListener('click', showAnswer);
@@ -17,7 +17,12 @@ function toggleBookmarked(){
 
 function showAnswer(){
     
+    console.log('ANS')
+    card.classList.add('question--visibility');
 }
 
 
-function showQuestion(){}
+function showQuestion(){
+    console.log('QUES')
+    card.classList.add('answer--visibility');
+}
