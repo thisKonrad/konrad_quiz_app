@@ -7,8 +7,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="./assets/bookmark.svg">
 
     <link rel="stylesheet" href="./components/global.css">
-    <link rel="stylesheet" href="./components/form.css">
+  
     <link rel="stylesheet" href="./components/style.css">
+
+    <link rel="stylesheet" href="./components/form.css">
 
     <title>add your questions</title>
 </head>
@@ -19,22 +21,19 @@
 <div class="container">
 
     <header>
-        <h1 class="quiz_title">CODE QUIZ</h1>
+        <h1 class="quiz_title">ADD YOUR QUESTION</h1>
     </header>
-
-    <section class="form_wrap">
             
-        <legend>Your Question:</legend>
-        <form action ='#' method ='#' name ='new-question-form'>
+        <form class="form_wrap" action ='#' method ='#' name ='new-question-form'>
 
-        <div class="question-wrap">
-            <label for='your-question'>Your Question:</label>
+        <div class="question_wrap">
+            <label for='your-question' class="question_title">Your Question:</label>
             <textarea id="your-question" name="text-question"
             cols="12" rows="4"
             min="4" max="150"></textarea>
             <p><span data-js="question-chars-count">00</span> characters left!</p>
         </div>
- 
+        
         <div class="answer_wrap">
             <label for='your-answer'>Your Answer:</label>
             <textarea id="your-answer" name="text-answer"
@@ -48,12 +47,12 @@
             <input type="text" id="tag" name="tag-name">
         </div>
 
-        <label for='add-button' name ='add-question-button'>add</label>
-        <button type='submit' id='add-button'>
-        </form>
+        <div class="add_button_wrap">
+            <button type='submit' id='add-button' 
+            name ='add-question-button'>
+        </div>
+    </form>
     
-    </section>
-
     <main class="page_wrap">
 
     <div name="start_space_holder" class="start_of_card_line"></div>
