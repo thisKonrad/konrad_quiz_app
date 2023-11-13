@@ -22,12 +22,15 @@
         <h1 class="quiz_title">ADD YOUR QUESTION</h1>
     </header>
 
-        <form class="form_wrap" action ='#' method ='#' name ='new-question-form'>
+        <form class="form_wrap" 
+        action ='#' method ='#' 
+        name ='new-question-form'
+        data-js="question-form">
 
         <div class="question_wrap">
             <label for='your-question' class="question_title">Your Question:</label>
             <textarea id="your-question" name="text-question"
-            cols="12" rows="4"
+            cols="10" rows="4"
             min="4" max="150"></textarea>
             <p class="chars_counter"><span data-js="question-chars-count">00</span> characters left!</p>
         </div>
@@ -35,7 +38,7 @@
         <div class="answer_wrap">
             <label for='your-answer' class="answer_title">Your Answer:</label>
             <textarea id="your-answer" name="text-answer"
-            cols="12" rows="4"
+            cols="10" rows="4"
             min="4" max="150"></textarea> 
             <p class="chars_counter"><span data-js="answer-chars-count">00</span> characters left!</p>
         </div>
@@ -47,7 +50,7 @@
 
         <div class="add_button_wrap">
             <input class="submit_button" value="ADD" type='submit' id='add-button' 
-            name ='add-question-button'>
+                data-js="submit-button" name ='add-question-button'>
         </div>
     </form>
     

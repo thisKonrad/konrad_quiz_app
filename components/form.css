@@ -31,6 +31,20 @@
     grid-template-columns: 4fr;
     grid-template-rows: 0.5fr 3fr 0.5fr;
 }
+#your-answer, #your-question{
+    padding: 0.2rem;
+    height: 64%;
+    width: 100%;
+    font-size: 1.4rem;
+    border: none;
+}
+
+#tag{
+    height: 1.6rem;
+    border: none;
+    width: 45%;
+    font-size: 1.2rem;
+}
 .tag_wrap{
     grid-area: 3/1/3/4;
     display: flex;
@@ -56,7 +70,8 @@
 }
 
 .chars_counter{
-    margin: 0.4rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
     font-size: 1rem;
     color: var(--textColor);
     text-shadow: var(--textShadow);
