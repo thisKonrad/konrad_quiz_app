@@ -39,4 +39,12 @@ submitBtn.addEventListener('click',(e)=>{
 
 function createNewQuestion(){
 
+    const cardSection = document.createElement('section');
+    cardSection.classList.add('card');
+
+    const cardDiv = document.createElement('div');
+    cardDiv.classList.add('question');
+
+    cardSection.append(cardDiv)
+
 }
