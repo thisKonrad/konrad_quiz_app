@@ -22,7 +22,10 @@
         <h1 class="quiz_title">ADD YOUR QUESTION</h1>
     </header>
 
-        <form class="form_wrap" action ='#' method ='#' name ='new-question-form'>
+        <form class="form_wrap" 
+        action ='#' method ='#' 
+        name ='new-question-form'
+        data-js="question-form">
 
         <div class="question_wrap">
             <label for='your-question' class="question_title">Your Question:</label>
@@ -47,7 +50,7 @@
 
         <div class="add_button_wrap">
             <input class="submit_button" value="ADD" type='submit' id='add-button' 
-            name ='add-question-button'>
+                data-js="submit-button" name ='add-question-button'>
         </div>
     </form>
     
