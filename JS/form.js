@@ -61,6 +61,22 @@ function createNewCard(){
     questCardDiv.append(questCardTitle);
     questCardDiv.append(questCardBtn);
 
+    /* :::: new answer card face :::: */
+    const answerCardDiv = document.createElement('div');
+    answerCardDiv.classList.add('answer');
+
+    const answerCardBtn = document.createElement('button');
+    answerCardBtn.classList.add('turn_card_btn');
+    answerCardBtn.innerText = `${formQuestion}`;
+
+    const answerCardTitle = document.createElement('h3');
+    answerCardTitle.classList.add('answer_text');
+    answerCardTitle.innerText = `${formAnswer}`;
+
+    answerCardDiv.append(answerCardBtn)
+    answerCardDiv.append(answerCardTitle)
+
     cardSection.append(questCardDiv);
+    cardSection.append(answerCardDiv);
 
 }
