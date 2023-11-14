@@ -112,12 +112,14 @@ function createNewCard(question, answer, tag){
     }
 
     function showAnswer(){
+        questCardDiv.classList.remove('question--showcast');
         questCardDiv.classList.add('question--hide');
         answerCardDiv.classList.add('answer--show');}
 
 
     function showQuestion(){
         questCardDiv.classList.remove('question--hide');
-        answerCardDiv.classList.remove('answer--show');}
+        answerCardDiv.classList.remove('answer--show');
+        questCardDiv.classList.add('question--showcast');}
 
 };
