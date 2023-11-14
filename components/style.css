@@ -8,13 +8,10 @@
 
 :root{
     font-family:'Courier New', Courier, monospace;
-    /* by default: font-family: 'Courier New', Courier, monospace; */
     font-size: 100%;
-
     /* :::: heights :::: */
     --cardHeight: 24rem;
     --headerHeight: 8rem;
-
 }
 
 body {
@@ -48,8 +45,12 @@ body {
     --userBackground: rgb(62, 215, 253);
     --toggleBackground: rgb(108, 108, 235);
 
-    --backgroundGradientColorOne: rgb(238, 255, 209);
-    --backgroundGradientColorTwo: rgb(152, 228, 255);
+    --backgroundGradientColorOne: rgb(130, 240, 139);
+    --backgroundGradientColorTwo: rgb(110, 205, 240);
+
+    --profileGradient001:  rgb(128, 206, 134);;
+    --profileGradient002: rgb(46, 157, 197);
+    --profileGradient003: rgb(161, 161, 161);
 
     /* :::: shadows :::: */
     --boxShadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.6);
@@ -101,7 +102,6 @@ body {
 }
 
 .page_wrap{
-    position: relative;
     display: flex;
     width: 100%;
     height: 100%;
@@ -109,8 +109,8 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    top: 260%; 
-    padding-bottom: 120%; 
+    margin-top: 12rem;
+    padding-bottom: 8rem;
 }
 
 /* these are dummies for the correct spacing of the card area*/
