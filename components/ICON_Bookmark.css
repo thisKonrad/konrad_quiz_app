@@ -1,11 +1,4 @@
-/* .icon_bookmark{
-    cursor: pointer;
-    margin-bottom: 3rem;
-    width: 6rem;
-    height: 6rem;
-    filter: drop-shadow(3px 5px 4px var(--iconShadow));
-} */
-
+/* :::: ICON bookmark stylesheet :::: */
 .bookmarked{
     cursor: pointer;
     border: 2px solid rgba(255, 0, 0, 0.6);

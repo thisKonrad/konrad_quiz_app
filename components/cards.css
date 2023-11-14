@@ -37,14 +37,25 @@ h3{
 .question {
     z-index: 2;
     visibility: visible;  
+    padding: 1rem;
+    inline-size: var(--cardHeight);
+    text-align: center;
+    word-break: break-all;
     background-color: var(--questionCardColor);
 }
 
 .answer {
     z-index: 3;
     visibility: hidden; 
+    padding: 1rem;
     font-size: 1.4rem;
+    text-align: center;
+    inline-size: var(--cardHeight);
+    word-break: break-all;
     background-color: var(--answerCardColor);
+}
+.answer_text{
+    margin: 1.4rem;
 }
 
 /* BEM for JS */
