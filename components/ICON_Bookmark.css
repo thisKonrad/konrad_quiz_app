@@ -12,6 +12,30 @@
     border-radius: 50%;
     background-color: rgba(255, 0, 0, 0.2);
     box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.8);
+    animation: logg 1s linear forwards;
+    transition:all 0.3s;
+}
+
+@keyframes logg {
+    0%{
+        transform: rotate(0deg);
+        opacity:0.1;
+        filter: blur(2px);
+    }
+    25%{
+        transform: rotate(35deg);
+    }
+    50%{
+        transform: rotate(-35deg);
+        opacity: 1;
+    }
+    75%{
+        transform: rotate(35deg);
+    }
+    100%{
+        transform: rotate(0deg);
+        filter: blur(0);
+    }
 }
 
 .question_bookmark{
