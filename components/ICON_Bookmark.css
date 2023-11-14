@@ -27,3 +27,10 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+
+.question_bookmark_footer{
+    margin-bottom: 3rem;
+    width: 6rem;
+    height: 6rem;
+    filter: drop-shadow(3px 5px 4px var(--iconShadow));
+}
