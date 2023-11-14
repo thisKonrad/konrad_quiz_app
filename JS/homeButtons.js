@@ -15,23 +15,18 @@ showAnswerBtn.addEventListener('click', showAnswer);
 showQuestionBtn.addEventListener('click', showQuestion);
 
 function toggleBookmarked(){
-    console.log('clic')
     bookmarkIcon.classList.toggle('bookmarked');
 }
 
 function showAnswer(){
-    console.log('ANS')
+    questionCard.classList.remove('question--showcast');
     questionCard.classList.add('question--hide');
     answerCard.classList.add('answer--show');
- /*    questionCard.style.visibility = 'hidden';
-    answerCard.style.visibility ='visible'; */
 }
 
 
 function showQuestion(){
-    console.log('QUES')
     questionCard.classList.remove('question--hide');
     answerCard.classList.remove('answer--show');
- /*    answerCard.style.visibility ='hidden';
-    questionCard.style.visibility = 'visible'; */
+    questionCard.classList.add('question--showcast');
 }
